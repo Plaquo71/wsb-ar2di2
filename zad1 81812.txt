@@ -1,0 +1,11 @@
+/*
+Szkic Arduino Diody LED
+Autor: Weronika Burzyńska, 81812; 2024-02-24
+*/
+
+void loop() {
+digitalWrite(13, HIGH); // włączenie pinu cyfrowego nr 13
+delay(1000); // wstrzymanie działanie przez 1 sekundę
+digitalWrite(13, LOW); // wyłączenie pinu cyfrowego nr 13
+delay(1000); // wstrzymanie działanie przez 1 sekundę
+}
